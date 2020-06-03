@@ -1,5 +1,5 @@
 <aura:component implements="force:appHostable,flexipage:availableForAllPageTypes" access="global" controller="AccountClass">
-    <aura:attribute name="AccountList" type="List"/>
+    <aura:attribute name="AccountList" type="List" Default="9"/>
     <aura:attribute name="Columns" type="List"/>
     <aura:attribute name="TempList" type="List"/>
     <aura:attribute name="defaultCount" type="Integer" Default="5"/>
